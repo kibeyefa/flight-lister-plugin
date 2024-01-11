@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* 
+LOADER STYLES
+
+*/
+
+#loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flight-container {
+  --active-color: orange;
+  --scheduled-color: grey;
+  --landed-color: green;
+  --cancelled-color: red;
+
+  font-size: 14px;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 10px;
+}
+
+.flight-container td {
+  /*  border: 1px solid black !important;*/
+}
+
+.flight-container tbody {
+  /*  border: 1px solid black;*/
+}
+
+.flight-container thead {
+  font-size: 16px;
+  font-weight: bold;
+  /* color: black; */
+}
+
+.flight-container td.active {
+  background: var(--active-color);
+  color: white;
+  /*  border: 1px solid black;*/
+}
+
+.flight-container td.scheduled {
+  background: var(--scheduled-color);
+  color: white;
+  /*  border: 1px solid black;*/
+}
+
+.flight-container td.landed {
+  background: var(--landed-color);
+  color: white;
+  /*  border: 1px solid black;*/
+}
+
+.flight-container td.cancelled {
+  background: var(--cancelled-color);
+  color: white;
+  /*  border: 1px solid black;*/
+}
+
+@media (max-width: 600px) {
+  .flight-container table {
+    width: 90%;
+    marging-inline: auto;
+    border-collapse: collapse;
+    border: none;
+  }
+
+  thead {
+    display: none;
+  }
+
+  .flight-container tbody.flight-data {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+
+  .flight-container tr {
+    display: flex;
+    flex-direction: column;
+    /*    width: 100%;*/
+    margin-bottom: 15px !important;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+  }
+
+  .flight-container td {
+    /*		width: 100%;*/
+    /*    width: 100%;*/
+  }
+}
+
+.flight-form-flex {
+  display: flex;
+  width: 100%;
+}
+
+.flight-form-group {
+  justify-self: stretch;
+  margin-right: 5px;
+}
+
+.flight-form-group select {
+  width: 100%;
+}
+
+#flight-error {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.flight-display-none {
+  display: none;
+}

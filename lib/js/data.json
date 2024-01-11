@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "code": "usa",
+      "airports": [
+        {
+          "airport_name": "Hartsfield-Jackson Atlanta International Airport",
+          "airport_iata": "ATL"
+        },
+        {
+          "airport_name": "Los Angeles International Airport",
+          "airport_iata": "LAX"
+        },
+        {
+          "airport_name": "O'Hare International Airport",
+          "airport_iata": "ORD"
+        }
+      ]
+    },
+    {
+      "name": "China",
+      "code": "china",
+      "airports": [
+        {
+          "airport_name": "Beijing Capital International Airport",
+          "airport_iata": "PEK"
+        },
+        {
+          "airport_name": "Shanghai Pudong International Airport ",
+          "airport_iata": "PVG"
+        },
+        {
+          "airport_name": "Guangzhou Baiyun International Airport",
+          "airport_iata": "CAN"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "code": "india",
+      "airports": [
+        {
+          "airport_name": "Indira Gandhi International Airport, Delhi",
+          "airport_iata": "DEL"
+        },
+        {
+          "airport_name": "Chhatrapati Shivaji Maharaj International Airport, Mumba",
+          "airport_iata": "BOM"
+        },
+        {
+          "airport_name": "Kempegowda International Airport, Bangalore",
+          "airport_iata": "BLR"
+        }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "code": "uk",
+      "airports": [
+        {
+          "airport_name": "Manchester Airport (MAN)",
+          "airport_iata": "MAN"
+        },
+        {
+          "airport_name": "London Heathrow Airport (LHR)",
+          "airport_iata": "LHR"
+        },
+        {
+          "airport_name": "London Gatwick Airport (LGW)",
+          "airport_iata": "LGW"
+        }
+      ]
+    }
+  ]
+}
