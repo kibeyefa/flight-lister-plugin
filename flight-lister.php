@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Flight Lister
-Plugin URI: https://dev-kibeyefa.pantheonsite.io/flight-lister/
+Plugin URI: https://dev-kibeyefa.pantheonsite.io/projects/flight-lister-wordpress-plugin/
 Description: Lists flight data from Aviation stack
 Version: 1.0.0
 Author: Koboju Kibeyefa
